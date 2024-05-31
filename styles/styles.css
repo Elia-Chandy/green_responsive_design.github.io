@@ -1,0 +1,196 @@
+body {
+    background-color: #013243;
+    display: flex;
+    justify-content: center;
+    /* position: absolute; */
+    position: relative;
+}
+.green {
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    position: static;
+}
+
+header {
+    margin: 50px 0;
+}
+
+h1 {
+    font-family: "Sen", sans-serif;
+    font-size: 110px;
+    color: #32f5c8;
+    margin: 0;
+}
+.green_p {
+    width: 500px;
+    position: static;
+}
+
+p{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    color: #a9bdc6;
+}
+button {
+    background-color: #32f5c8;
+    border: 0;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 25px;
+}
+.green_contact {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   width: 250px;
+   margin: 50px 0;
+
+}
+.avatar_one {
+    position: relative;
+    width: 130px;
+    height: 130px;
+    bottom: 610px;
+    right: 100px;
+    z-index: -1; 
+}
+.avatar_two {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    bottom: 745px;
+    left: 565px;
+    z-index: -1;
+}
+.avatar_three {
+    position: relative;
+    height: 180px;
+    width: 180px;
+    left: 600px;
+    bottom: 450px;
+}
+.avatar_four {
+    position: relative;
+    height: 130px;
+    width: 130px;
+    left: 700px ;
+    bottom: 1080px;
+}
+.avatar_five {
+    position: relative;
+    height: 90px;
+    width: 90px;
+    left: 735px;
+    bottom: 945px;
+    z-index: -1;
+}
+@media screen and (max-width: 985px) {
+    .green_body {
+        margin-top: 180px;
+    }
+    .green {
+        width: 550px;
+    }
+    h1 {
+        font-size: 80px;
+    }
+    .green_p{
+        width: 400px;
+    }
+    p {
+        font-size: 15px;
+    }
+    .green_contact {
+        margin-top: 200px;
+    }
+    .avatar_one {
+        position: relative;
+        width: 130px;
+        height: 130px;
+        bottom: 800px;
+        right: 1px;
+    }
+    .avatar_two {
+        position: relative;
+        height: 100px;
+        width: 100px;
+        bottom: 810px;
+        left: 370px;
+        z-index: -1;
+    }
+    .avatar_three {
+        position: relative;
+        height: 250px;
+        width: 250px;
+        left: 300px;
+        bottom: 550px;
+    }
+    .avatar_four {
+        position: relative;
+        height: 150px;
+        width: 150px;
+        left: 450px ;
+        bottom: 1350px;
+    }
+    .avatar_five {
+        position: relative;
+        height: 90px;
+        width: 90px;
+        left: 500px;
+        bottom: 1250px;
+        z-index: -1;
+}
+}
+@media screen and (max-width: 568px) {
+    .green_body {
+        margin-top: 80px;
+    }
+    .green {
+        width: 310px;
+    }
+    h1 {
+        font-size: 45px;
+    }
+    .green_p{
+        width: 300px;
+    }
+    p {
+        font-size: 20px;
+    }
+    .green_contact {
+        margin-top: 160px;
+    }
+    .avatar_one {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        bottom: 650px;
+        left: 20px;
+    }
+    .avatar_two {
+        display: none;
+    }
+    .avatar_three {
+        position: relative;
+        height: 150px;
+        width: 150px;
+        left: 170px;
+        bottom: 390px;
+        z-index: -1;
+    }
+    .avatar_four {
+        position: relative;
+        height: 150px;
+        width: 150px;
+        left: 170px ;
+        z-index: -1;
+        bottom: 920px;
+    }
+    .avatar_five {
+        display: none;
+}
+}
+}
